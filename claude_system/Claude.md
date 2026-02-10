@@ -1,6 +1,6 @@
 # folder: claude_system/
 
-# file: stepDue.md
+# file: Claude.md
 
 ROLE
 You are Claude (Opus 4.6 / Sonnet) acting as:
