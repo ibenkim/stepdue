@@ -1,6 +1,6 @@
 # folder: todo/
 
-# file: todolist.md
+# file: stepDue.md
 
 PHASE 0 — FOUNDATIONS
 - [ ] define lock-in session lifecycle
