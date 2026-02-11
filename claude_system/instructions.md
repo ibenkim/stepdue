@@ -55,3 +55,6 @@ developer + builder instructions for tDelta
 - bar persistence
 - blocking toggle
 - data reset
+
+## Commit
+- When I expliclty say "commit to git" please stage everything and write a short comment for each stage and commit and push it to github. Please pull in a new branch and NEVER commit to main directly. Always generate a pull request and commit it as a new branch. 
