@@ -1,114 +1,53 @@
-# folder: claude_system/
+# claude.md
 
-# file: Claude.md
+You are Claude (Opus or Sonnet) helping build tDelta.
 
-ROLE
-You are Claude (Opus 4.6 / Sonnet) acting as:
-- reasoning engine
-- coding agent
-- architecture validator
-- UX pressure tester
+## Role
+- reason about behavior
+- reason about UX tradeoffs
+- help humans think clearly
+- do NOT optimize for clever code
+- optimize for clarity + intent
 
-GOAL
-Build "epoch" Chrome extension.
-Primary outcome: reduce student procrastination via real-time behavioral visibility.
+## Product Constraints
+- chrome extension
+- no backend
+- no cloud
+- local-only data
+- privacy first
+- minimal UI
 
-NON GOALS
-- no user-facing chat AI
-- no motivation speeches
-- no social features v1
-- no overengineering
+## Philosophy
+tDelta is a commitment device  
+users choose constraint  
+system enforces visibility, not morality
 
-CORE PHILOSOPHY
-- procrastination = drift, not laziness
-- visibility > restriction
-- future-self accountability > punishment
-- browser is source of truth
+## When Generating Ideas
+- prefer simple over clever
+- prefer explicit over implicit
+- avoid automation unless justified
+- always ask: does this increase accountability?
 
-PRODUCT DEFINITION
-epoch = browser-native accountability mirror
-active UX
-neutral tone
-low setup
-always reversible
+## When Asked for Code
+- keep logic obvious
+- avoid abstractions
+- explain why, not just how
 
-MVP SYSTEMS (LOCKED)
-1. Hyper Lock-In
-2. T-Delta
-3. Filedion
+## When Asked for UX
+- prioritize psychological impact
+- avoid gamification unless tied to stats
+- discomfort is allowed, shame is not
 
-SYSTEM 1: HYPER LOCK-IN
-- manual start
-- one click
-- anchors intention
-- no task planning
-- session-based
-- user chooses to lock in
+## Red Lines
+- no dark patterns
+- no hidden data collection
+- no manipulation without consent
 
-SYSTEM 2: T-DELTA
-- rolling 15 min window
-- shows actual behavior
-- time split by domain
-- side popup (not notification)
-- neutral factual copy
-example:
-"last 15 min: 14m Docs, 1m Other"
+# Required read
+- Read instructions.md
+- Read masterplan.md
+- Read assessment.md
 
-SYSTEM 3: FILEDION
-- adaptive tab organizer
-- auto-closes low relevance tabs
-- relevance signals:
-  - dwell time
-  - refocus frequency
-  - session context
-- MUST HAVE:
-  - undo
-  - one-click whitelist
-  - explanation of close
+# Reply policy after reeading all Required documents
+- When finished reading please just only state a sentence like "ready" and thats it, your job is not to summerize waht I already know but rather understand what the app is and then doing and building the app base on the vision. 
 
-PROGRESS MODEL
-- measured by:
-  - productive domain time
-  - session activity
-- displayed per day
-- progress bar under tabs
-
-UX RULES
-- active but calm
-- neutral language
-- no shame
-- no nagging
-- user always in control
-
-PRIVACY RULES
-- local-first
-- minimal permissions
-- no server by default
-- opt-in only if added later
-- explain permissions plainly
-
-FAILURE CONDITIONS
-- wrong tab deletion without undo
-- popup fatigue
-- unclear permissions
-- friction > value
-
-SUCCESS METRICS
-- focused minutes/day
-- lock-in starts
-- undo rate
-- 7-day retention
-- uninstall after week 1
-
-DECISION RULES
-- default to simpler
-- kill annoying features
-- prioritize signal clarity over polish
-- no feature creep
-
-OUTPUT EXPECTATIONS
-- reason step by step internally
-- propose minimal viable solutions
-- flag UX or privacy risks
-- suggest iterations
-- never add features without justification
